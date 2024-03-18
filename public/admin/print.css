@@ -1,0 +1,14 @@
+@media print{
+    body {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        background-color: #fff;
+      }
+      .side-menu-dashboard{
+        display: none;
+      }
+      .leave-report-preview button{
+        display: none;
+      }
+}
