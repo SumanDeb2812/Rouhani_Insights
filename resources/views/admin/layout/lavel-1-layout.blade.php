@@ -54,6 +54,7 @@
     <script src="{{ asset('admin/js/web-auth-role-select.js') }}"></script>
     <script src="{{ asset('admin/js/leave-search.js') }}"></script>
     <script src="{{ asset('admin/js/leave-notification.js') }}"></script>
+    <script src="{{ asset('admin/js/employee-details-validation.js') }}"></script>
 
     <!-- Owl cerousel js file and jquery file link below! -->
     <script src="{{ asset('admin/owl-carousel/js/jquery.min.js') }}"></script>

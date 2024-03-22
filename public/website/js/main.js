@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function(){
 //Seasonal ad show and hide
 let welcome_message = document.getElementById('welcome_message');
 let welcome_img = document.getElementById('welcome_img');
@@ -253,5 +254,5 @@ window.addEventListener('scroll', function () {
     }
 })
 
-
+});
 
