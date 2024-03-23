@@ -17,8 +17,6 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::prefix('/Rouhani')->group(function(){
-
 Route::view('/', 'index');
 
 // Route::get('/welcome-mail', function(){
@@ -75,6 +73,4 @@ Route::middleware('login')->group(function() {
         Route::get('/ckeck-leave-notification', [DashboardController::class, 'checkLeaveNotification']); //ajax call to check leave notification
         Route::get('/update-notification-status', [DashboardController::class, 'updateNotificationStatus']); //ajax call to update leave notification
     });
-});
-
 });

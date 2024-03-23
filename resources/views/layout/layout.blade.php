@@ -108,7 +108,7 @@
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Carriers</a></li>
                                 <li><a href="#">Upload</a></li>
-                                <li><a href="/login">My Rouhani</a></li>
+                                <li><a href="{{ url('login') }}">My Rouhani</a></li>
                             </ul>
                         </div>
                     </div>
